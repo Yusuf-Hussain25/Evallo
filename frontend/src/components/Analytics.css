@@ -1,0 +1,148 @@
+.analytics-container {
+  margin-top: 30px;
+}
+
+.analytics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+}
+
+.analytics-header h3 {
+  margin: 0;
+  color: #1e293b;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.analytics-summary {
+  display: flex;
+  gap: 20px;
+}
+
+.summary-item {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.chart-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chart-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chart-card h4 {
+  margin: 0 0 16px 0;
+  color: #1e293b;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.chart-container {
+  margin-bottom: 16px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.level-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.level-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #f8fafc;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+.level-item svg {
+  color: #64748b;
+}
+
+.level-name {
+  flex: 1;
+  font-weight: 500;
+  color: #374151;
+  text-transform: capitalize;
+}
+
+.level-count {
+  font-weight: 600;
+  color: #1e293b;
+  min-width: 30px;
+  text-align: right;
+}
+
+.level-percentage {
+  font-size: 0.8rem;
+  color: #64748b;
+  min-width: 40px;
+  text-align: right;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .analytics-header {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  .analytics-summary {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .analytics-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .chart-card {
+    padding: 16px;
+  }
+  
+  .level-item {
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .analytics-header {
+    padding: 16px;
+  }
+  
+  .chart-card {
+    padding: 12px;
+  }
+  
+  .level-item {
+    font-size: 0.9rem;
+  }
+} 

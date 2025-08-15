@@ -1,0 +1,529 @@
+{
+  "logs": [
+    {
+      "id": "1755066867776",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T06:29:27.759Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:34:27.776Z"
+    },
+    {
+      "id": "1755066866898",
+      "level": "warn",
+      "message": "High memory usage detected: 85% of available memory in use",
+      "resourceId": "app-server-02",
+      "timestamp": "2025-08-13T06:19:26.869Z",
+      "traceId": "trace-memory-001",
+      "spanId": "span-monitor-001",
+      "commit": "7a8b9c1",
+      "metadata": {
+        "parentResourceId": "monitoring-service",
+        "memoryThreshold": 80,
+        "currentUsage": 85
+      },
+      "ingestedAt": "2025-08-13T06:34:26.898Z"
+    },
+    {
+      "id": "1755066866887",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T06:29:26.869Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:34:26.887Z"
+    },
+    {
+      "id": "1755066866229",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T06:29:26.205Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:34:26.229Z"
+    },
+    {
+      "id": "1755066866022",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T06:29:25.997Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:34:26.022Z"
+    },
+    {
+      "id": "1755066865807",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T06:29:25.781Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:34:25.807Z"
+    },
+    {
+      "id": "1755066865233",
+      "level": "warn",
+      "message": "High memory usage detected: 85% of available memory in use",
+      "resourceId": "app-server-02",
+      "timestamp": "2025-08-13T06:19:25.193Z",
+      "traceId": "trace-memory-001",
+      "spanId": "span-monitor-001",
+      "commit": "7a8b9c1",
+      "metadata": {
+        "parentResourceId": "monitoring-service",
+        "memoryThreshold": 80,
+        "currentUsage": 85
+      },
+      "ingestedAt": "2025-08-13T06:34:25.233Z"
+    },
+    {
+      "id": "1755066865220",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T06:29:25.193Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:34:25.220Z"
+    },
+    {
+      "id": "1755066864127",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T06:29:24.105Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:34:24.127Z"
+    },
+    {
+      "id": "1755066806471",
+      "level": "info",
+      "message": "Test WebSocket log",
+      "resourceId": "test-server",
+      "timestamp": "2024-01-01T12:00:00.000Z",
+      "traceId": "trace-test-001",
+      "spanId": "span-test-001",
+      "commit": "test123",
+      "metadata": {
+        "test": true,
+        "websocket": true
+      },
+      "ingestedAt": "2025-08-13T06:33:26.471Z"
+    },
+    {
+      "id": "1755066697462",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T06:26:37.443Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:31:37.462Z"
+    },
+    {
+      "id": "1755065353976",
+      "level": "warn",
+      "message": "High memory usage detected: 85% of available memory in use",
+      "resourceId": "app-server-02",
+      "timestamp": "2025-08-13T05:54:13.907Z",
+      "traceId": "trace-memory-001",
+      "spanId": "span-monitor-001",
+      "commit": "7a8b9c1",
+      "metadata": {
+        "parentResourceId": "monitoring-service",
+        "memoryThreshold": 80,
+        "currentUsage": 85
+      },
+      "ingestedAt": "2025-08-13T06:09:13.976Z"
+    },
+    {
+      "id": "1755065353954",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T06:04:13.907Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:09:13.954Z"
+    },
+    {
+      "id": "1755065352805",
+      "level": "warn",
+      "message": "High memory usage detected: 85% of available memory in use",
+      "resourceId": "app-server-02",
+      "timestamp": "2025-08-13T05:54:12.743Z",
+      "traceId": "trace-memory-001",
+      "spanId": "span-monitor-001",
+      "commit": "7a8b9c1",
+      "metadata": {
+        "parentResourceId": "monitoring-service",
+        "memoryThreshold": 80,
+        "currentUsage": 85
+      },
+      "ingestedAt": "2025-08-13T06:09:12.805Z"
+    },
+    {
+      "id": "1755065352778",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T06:04:12.743Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:09:12.778Z"
+    },
+    {
+      "id": "1755065352105",
+      "level": "warn",
+      "message": "High memory usage detected: 85% of available memory in use",
+      "resourceId": "app-server-02",
+      "timestamp": "2025-08-13T05:54:12.066Z",
+      "traceId": "trace-memory-001",
+      "spanId": "span-monitor-001",
+      "commit": "7a8b9c1",
+      "metadata": {
+        "parentResourceId": "monitoring-service",
+        "memoryThreshold": 80,
+        "currentUsage": 85
+      },
+      "ingestedAt": "2025-08-13T06:09:12.105Z"
+    },
+    {
+      "id": "1755065352092",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T06:04:12.066Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:09:12.092Z"
+    },
+    {
+      "id": "1755065351053",
+      "level": "info",
+      "message": "User authentication successful: user@example.com logged in",
+      "resourceId": "auth-service-01",
+      "timestamp": "2025-08-13T05:39:10.994Z",
+      "traceId": "trace-auth-001",
+      "spanId": "span-login-001",
+      "commit": "3f4e5d2",
+      "metadata": {
+        "parentResourceId": "api-gateway",
+        "userId": "user-123",
+        "authMethod": "jwt"
+      },
+      "ingestedAt": "2025-08-13T06:09:11.053Z"
+    },
+    {
+      "id": "1755065351036",
+      "level": "warn",
+      "message": "High memory usage detected: 85% of available memory in use",
+      "resourceId": "app-server-02",
+      "timestamp": "2025-08-13T05:54:10.994Z",
+      "traceId": "trace-memory-001",
+      "spanId": "span-monitor-001",
+      "commit": "7a8b9c1",
+      "metadata": {
+        "parentResourceId": "monitoring-service",
+        "memoryThreshold": 80,
+        "currentUsage": 85
+      },
+      "ingestedAt": "2025-08-13T06:09:11.036Z"
+    },
+    {
+      "id": "1755065351020",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T06:04:10.994Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:09:11.020Z"
+    },
+    {
+      "id": "1755065017354",
+      "level": "info",
+      "message": "Test log from curl",
+      "resourceId": "test-server",
+      "timestamp": "2024-01-01T12:00:00.000Z",
+      "traceId": "trace-test-001",
+      "spanId": "span-test-001",
+      "commit": "test123",
+      "metadata": {
+        "test": true
+      },
+      "ingestedAt": "2025-08-13T06:03:37.354Z"
+    },
+    {
+      "id": "1755064934362",
+      "level": "warn",
+      "message": "High memory usage detected: 85% of available memory in use",
+      "resourceId": "app-server-02",
+      "timestamp": "2025-08-13T05:47:14.268Z",
+      "traceId": "trace-memory-001",
+      "spanId": "span-monitor-001",
+      "commit": "7a8b9c1",
+      "metadata": {
+        "parentResourceId": "monitoring-service",
+        "memoryThreshold": 80,
+        "currentUsage": 85
+      },
+      "ingestedAt": "2025-08-13T06:02:14.362Z"
+    },
+    {
+      "id": "1755064934354",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T05:57:14.268Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:02:14.354Z"
+    },
+    {
+      "id": "1755064866153",
+      "level": "info",
+      "message": "User authentication successful: user@example.com logged in",
+      "resourceId": "auth-service-01",
+      "timestamp": "2025-08-13T05:31:06.087Z",
+      "traceId": "trace-auth-001",
+      "spanId": "span-login-001",
+      "commit": "3f4e5d2",
+      "metadata": {
+        "parentResourceId": "api-gateway",
+        "userId": "user-123",
+        "authMethod": "jwt"
+      },
+      "ingestedAt": "2025-08-13T06:01:06.153Z"
+    },
+    {
+      "id": "1755064866135",
+      "level": "warn",
+      "message": "High memory usage detected: 85% of available memory in use",
+      "resourceId": "app-server-02",
+      "timestamp": "2025-08-13T05:46:06.087Z",
+      "traceId": "trace-memory-001",
+      "spanId": "span-monitor-001",
+      "commit": "7a8b9c1",
+      "metadata": {
+        "parentResourceId": "monitoring-service",
+        "memoryThreshold": 80,
+        "currentUsage": 85
+      },
+      "ingestedAt": "2025-08-13T06:01:06.135Z"
+    },
+    {
+      "id": "1755064866115",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T05:56:06.087Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T06:01:06.115Z"
+    },
+    {
+      "id": "1755064676688",
+      "level": "warn",
+      "message": "High memory usage detected: 85% of available memory in use",
+      "resourceId": "app-server-02",
+      "timestamp": "2025-08-13T05:42:56.656Z",
+      "traceId": "trace-memory-001",
+      "spanId": "span-monitor-001",
+      "commit": "7a8b9c1",
+      "metadata": {
+        "parentResourceId": "monitoring-service",
+        "memoryThreshold": 80,
+        "currentUsage": 85
+      },
+      "ingestedAt": "2025-08-13T05:57:56.688Z"
+    },
+    {
+      "id": "1755064676674",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T05:52:56.656Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T05:57:56.674Z"
+    },
+    {
+      "id": "1755064676059",
+      "level": "warn",
+      "message": "High memory usage detected: 85% of available memory in use",
+      "resourceId": "app-server-02",
+      "timestamp": "2025-08-13T05:42:56.028Z",
+      "traceId": "trace-memory-001",
+      "spanId": "span-monitor-001",
+      "commit": "7a8b9c1",
+      "metadata": {
+        "parentResourceId": "monitoring-service",
+        "memoryThreshold": 80,
+        "currentUsage": 85
+      },
+      "ingestedAt": "2025-08-13T05:57:56.059Z"
+    },
+    {
+      "id": "1755064676046",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T05:52:56.028Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T05:57:56.046Z"
+    },
+    {
+      "id": "1755064675144",
+      "level": "info",
+      "message": "User authentication successful: user@example.com logged in",
+      "resourceId": "auth-service-01",
+      "timestamp": "2025-08-13T05:27:55.121Z",
+      "traceId": "trace-auth-001",
+      "spanId": "span-login-001",
+      "commit": "3f4e5d2",
+      "metadata": {
+        "parentResourceId": "api-gateway",
+        "userId": "user-123",
+        "authMethod": "jwt"
+      },
+      "ingestedAt": "2025-08-13T05:57:55.144Z"
+    },
+    {
+      "id": "1755064675136",
+      "level": "warn",
+      "message": "High memory usage detected: 85% of available memory in use",
+      "resourceId": "app-server-02",
+      "timestamp": "2025-08-13T05:42:55.121Z",
+      "traceId": "trace-memory-001",
+      "spanId": "span-monitor-001",
+      "commit": "7a8b9c1",
+      "metadata": {
+        "parentResourceId": "monitoring-service",
+        "memoryThreshold": 80,
+        "currentUsage": 85
+      },
+      "ingestedAt": "2025-08-13T05:57:55.136Z"
+    },
+    {
+      "id": "1755064675126",
+      "level": "error",
+      "message": "Database connection failed: Connection timeout after 30 seconds",
+      "resourceId": "db-server-01",
+      "timestamp": "2025-08-13T05:52:55.121Z",
+      "traceId": "trace-db-001",
+      "spanId": "span-conn-001",
+      "commit": "5e5342f",
+      "metadata": {
+        "parentResourceId": "load-balancer-01",
+        "retryCount": 3,
+        "connectionPool": "main-pool"
+      },
+      "ingestedAt": "2025-08-13T05:57:55.126Z"
+    }
+  ]
+}
